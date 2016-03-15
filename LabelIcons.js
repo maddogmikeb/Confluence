@@ -83,7 +83,7 @@
 
 <script>
 
-var defaultTitle = "Agility At Tatts";
+var defaultTitle = "Loading Title & Icons...";
 var loaded = false;
 
 var getQueryParams = function (qs) {
@@ -93,7 +93,6 @@ var getQueryParams = function (qs) {
         return params;
     };
      
-//$(document).ready(function() {
 AJS.toInit(function(){
     
     AJS.progressBars.update("#progressBar", 0.2);
